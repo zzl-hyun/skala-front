@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
     <title>My Class</title>
 </head>
 <body>
-    <div class="calendar">
+    <div class="container">
         <h1>📅 나의 강의 시간표</h1>
         <table border="1" cellpadding="3" color="black">
             <thead>
@@ -37,7 +38,7 @@
                 
                 <tr align="center" bgcolor="#f9f9f9">
                     <td>12:00 - 13:00</td>
-                    <td colspan="5">점심시간</td>
+                    <td colspan="5" bgcolor="orange">점심시간</td>
                 </tr>
                 
                 <tr>
@@ -62,8 +63,10 @@
                     <td>17:00 - 18:00</td>
                 </tr>
             </tbody>
+            <tfoot>
+                <a href="../index.html">⮐ HOME</a>
+            </tfoot>
         </table>
     </div>
-    <a href="../index.html">⮐ HOME</a>
 </body>
 </html>
