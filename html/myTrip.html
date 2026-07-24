@@ -15,34 +15,42 @@
             Your browser does not support the audio element.
         </audio>
         <hr>
-        <div>
-            <p class="trip-card">
-                <picture> 
-                    <img src="../media/image/CHICAGO.jpg" style="width: 300px;height: 400px;" alt="시카고"/><br>시카고
-                </picture>
-            </p>
-            <p class="trip-card">
+        <div class="trip-grid">
+            <div class="trip-card">
                 <picture>
-                    <img src="../media/image/SYDNEY.jpg" style="width: 300px;height: 400px;" alt="시드니"/>
-                    <img src="../media/image/SYDNEY_2.jpeg" style="width: 300px;height: 400px;" alt="시드니"/><br>시드니
+                    <img src="../media/image/CHICAGO.jpg" alt="시카고">
                 </picture>
-            </p>
-            <p class="trip-card">
+                <p>시카고</p>
+            </div>
+
+            <div class="trip-card">
                 <picture>
-                    <img src="../media/image/soowon_2.JPG" style="width: 300px;height: 400px;" alt="수원"/>
-                    <img src="../media/image/soowon_1.JPG" style="width: 300px;height: 400px;" alt="수원"/><br>수원
+                    <img src="../media/image/SYDNEY.jpg" alt="시드니">
+                    <img src="../media/image/SYDNEY_2.jpeg" alt="시드니">
                 </picture>
-            </p>
+                <p>시드니</p>
+            </div>
+
+            <div class="trip-card">
+                <picture>
+                    <img src="../media/image/soowon_2.JPG" alt="수원">
+                    <img src="../media/image/soowon_1.JPG" alt="수원">
+                </picture>
+                <p>수원</p>
+            </div>
         </div>
         <hr>
         <h2>📹 나의 여행 브이로그</h2>
-        <p>
-            <video width="400" height="225" controls poster="../media/image/SYDNEY.jpg">
+        <div class="trip-video">
+            <video controls poster="../media/image/SYDNEY.jpg">
                 <source src="https://samplelib.com/mp4/sample-5s-360p.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
-            <br>manly beach 가는 길
-        </p>
+            <p>
+                <br>manly beach 가는 길
+            </p>
+        </div>
     </div>
+    <a href="../index.html">⮐ HOME</a>
 </body>
 </html>
